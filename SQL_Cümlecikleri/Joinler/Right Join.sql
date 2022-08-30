@@ -1,0 +1,65 @@
+/*
+
+
+---------- RÝGHT Join-----------
+
+
+*/
+
+SELECT *FROM IK_PERSONEL
+
+--RIGHT JOIN
+
+SELECT
+    PER.*,
+	ILC.ILCE_ADI
+	FROM
+	    IK_PERSONEL AS PER
+		RIGHT JOIN GN_ILCE AS ILC ON PER.ID_ILCE=ILC.ID_ILCE
+
+--RIGHT JOIN --ilce bilgisi ve ID_IL 1 olanlar - Kriter Kullanýmý --> DOÐRU
+
+SELECT
+    PER.*,
+	ILC.ILCE_ADI
+	FROM
+	    IK_PERSONEL AS PER
+		RIGHT JOIN GN_ILCE AS ILC ON PER.ID_ILCE=ILC.ID_ILCE
+		AND ILC.ID_IL=1
+
+
+--RIGHT JOIN --ilce bilgisi ve ID_IL 1 olanlar - Kriter Kullanýmý --> HATALI (INNER JOIN GÝBÝ)
+
+SELECT
+    PER.*,
+	ILC.ILCE_ADI
+	FROM
+	    IK_PERSONEL AS PER
+		RIGHT JOIN GN_ILCE AS ILC ON PER.ID_ILCE=ILC.ID_ILCE
+		WHERE 
+		ILC.ID_IL=1
+
+
+--RIGHT JOIN --ilcesi girilen tüm personeller (Inner Join gibi çalýþýr)
+
+
+SELECT
+    PER.*,
+	ILC.ILCE_ADI
+	FROM
+	    IK_PERSONEL AS PER
+		RIGHT JOIN GN_ILCE AS ILC ON PER.ID_ILCE=ILC.ID_ILCE
+WHERE 
+PER.ID_ILCE IS NOT NULL
+
+--RIGHT JOIN --ilcesi girilmeyen tüm personeller
+
+SELECT
+    PER.*,
+	ILC.ILCE_ADI
+	FROM
+	    IK_PERSONEL AS PER
+		RIGHT JOIN GN_ILCE AS ILC ON PER.ID_ILCE=ILC.ID_ILCE
+WHERE 
+PER.ID_ILCE IS NULL
+

@@ -1,0 +1,24 @@
+/*
+
+---------Sorting Data------
+
+ order by
+
+*/
+
+--ASC (Default asc)
+
+SELECT * FROM IK_PERSONEL
+ORDER BY PERSONEL_ADI
+
+
+--ASC (Specified asc)
+
+SELECT * FROM IK_PERSONEL
+ORDER BY PERSONEL_SOYADI ASC, PERSONEL_ADI
+
+
+--DESC
+
+SELECT * FROM IK_PERSONEL
+ORDER BY PERSONEL_ADI DESC

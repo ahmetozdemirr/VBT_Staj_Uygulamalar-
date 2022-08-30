@@ -1,0 +1,98 @@
+/*
+
+--------------Modifying Data - DML(Data Manipulation Language)---------
+
+                 INSERT
+	             UPDATE
+	             DELETE 
+*/
+
+
+SELECT * FROM IK_PERSONEL
+
+--INSERT - WITH VALUES
+
+INSERT INTO IK_PERSONEL
+(
+   PERSONEL_ADI,
+   PERSONEL_SOYADI,
+   DOGUM_TARIHI,
+   OZEL_TELEFON,
+   IS_TELEFON,
+   IL_ADI,
+   ILCE_ADI,
+   ISE_GIRIS_TARIHI,
+   DEPARTMAN_ADI,
+   UNVAN_ADI,
+   MAAS
+
+)
+VALUES
+(
+     'Ahmet',
+	 'Özdemir',
+	 '1999-03-19',
+	 '5380649235',
+	 NULL,
+	 'Kahramanmaraþ',
+	 'Dulkadiroðlu',
+	 '2022-01-01',
+	 'Bilgi Ýþlem',
+	 'Uzman',
+	 1400
+
+)
+
+
+--INSERT - WITH SELECT
+
+INSERT INTO IK_PERSONEL
+(
+   PERSONEL_ADI,
+   PERSONEL_SOYADI,
+   DOGUM_TARIHI,
+   OZEL_TELEFON,
+   IS_TELEFON,
+   IL_ADI,
+   ILCE_ADI,
+   ISE_GIRIS_TARIHI,
+   DEPARTMAN_ADI,
+   UNVAN_ADI,
+   MAAS
+
+)
+SELECT
+
+   PERSONEL_ADI,
+   PERSONEL_SOYADI,
+   DOGUM_TARIHI,
+   OZEL_TELEFON,
+   IS_TELEFON,
+   IL_ADI,
+   ILCE_ADI,
+   ISE_GIRIS_TARIHI,
+   DEPARTMAN_ADI,
+   UNVAN_ADI,
+   MAAS
+FROM 
+    IK_PERSONEL_EXCEL
+
+--UPDATE 
+
+UPDATE IK_PERSONEL
+      SET ILCE_ADI='Kadýköy'
+WHERE
+     PERSONEL_ADI='Semih'
+	 and PERSONEL_SOYADI='Yýlmaz'
+
+SELECT *FROM IK_PERSONEL
+
+--DELETE 
+
+DELETE 
+      FROM IK_PERSONEL
+WHERE
+     PERSONEL_ADI='Semih'
+	 and PERSONEL_SOYADI='Yýlmaz'
+
+SELECT *FROM IK_PERSONEL

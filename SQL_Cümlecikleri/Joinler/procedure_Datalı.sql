@@ -1,0 +1,21 @@
+CREATE OR ALTER PROCEDURE GetMaasBilgileri
+	@SalaryYear INT,
+	@SALARY DECIMAL(18,2)
+	
+AS
+BEGIN
+	
+	SET NOCOUNT ON; --KAÇ SATIR ETKÝLENDÝ
+
+   
+	SELECT *
+	FROM IK_PERSONEL_MAAS
+	WHERE YIL=@SalaryYear
+	AND MAAS>=@SALARY
+	
+
+	
+END
+GO
+
+EXEC GetMaasBilgileri @SalaryYear=2021, @SALARY=1000

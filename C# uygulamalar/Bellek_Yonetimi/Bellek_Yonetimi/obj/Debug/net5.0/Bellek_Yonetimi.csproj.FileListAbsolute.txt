@@ -1,0 +1,16 @@
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\bin\Debug\net5.0\Bellek_Yonetimi.exe
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\bin\Debug\net5.0\Bellek_Yonetimi.deps.json
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\bin\Debug\net5.0\Bellek_Yonetimi.runtimeconfig.json
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\bin\Debug\net5.0\Bellek_Yonetimi.runtimeconfig.dev.json
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\bin\Debug\net5.0\Bellek_Yonetimi.dll
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\bin\Debug\net5.0\Bellek_Yonetimi.pdb
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.csproj.AssemblyReference.cache
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.AssemblyInfoInputs.cache
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.AssemblyInfo.cs
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.csproj.CoreCompileInputs.cache
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.dll
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\refint\Bellek_Yonetimi.dll
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.pdb
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\Bellek_Yonetimi.genruntimeconfig.cache
+C:\Users\1ahme\Desktop\VBT-STAJ\C# uygulamalar\Bellek_Yonetimi\Bellek_Yonetimi\obj\Debug\net5.0\ref\Bellek_Yonetimi.dll

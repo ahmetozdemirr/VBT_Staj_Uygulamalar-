@@ -1,0 +1,33 @@
+/*
+
+
+---------- Inner Join-----------
+
+
+*/
+
+
+
+SELECT * FROM IK_PERSONEL
+
+-- INNER JOIN - ALIAS
+                 
+SELECT 
+    PER.PERSONEL_ADI,
+	PER.PERSONEL_SOYADI,
+	PER.ID_ILCE,
+	ILC.ILCE_ADI
+	FROM                                     --Birebir eþleþen kayýtlar
+        IK_PERSONEL AS PER
+		INNER JOIN GN_ILCE AS ILC ON PER.ID_ILCE=ILC.ID_ILCE
+
+-- INNER JOIN - NOT ALIAS
+
+SELECT 
+    IK_PERSONEL.PERSONEL_ADI,
+	IK_PERSONEL.PERSONEL_SOYADI,
+	IK_PERSONEL.ID_ILCE,
+	GN_ILCE.ILCE_ADI
+	FROM                                     
+        IK_PERSONEL 
+		INNER JOIN GN_ILCE  ON IK_PERSONEL.ID_ILCE=GN_ILCE.ID_ILCE
